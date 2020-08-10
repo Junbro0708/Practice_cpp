@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		81DAAD5E24DFDF76008F74C1 /* 02_Inverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81DAAD5C24DFDF76008F74C1 /* 02_Inverse.cpp */; };
+		81DAAD6324E12FFB008F74C1 /* 03_1_isPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81DAAD6124E12FFB008F74C1 /* 03_1_isPalindrome.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +26,8 @@
 		816164CD24D848A000F62185 /* practice_cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = practice_cpp; sourceTree = BUILT_PRODUCTS_DIR; };
 		816164D024D848A000F62185 /* 01_class.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01_class.cpp; sourceTree = "<group>"; };
 		81DAAD5C24DFDF76008F74C1 /* 02_Inverse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02_Inverse.cpp; sourceTree = "<group>"; };
+		81DAAD5F24E129D7008F74C1 /* 03_isPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03_isPalindrome.cpp; sourceTree = "<group>"; };
+		81DAAD6124E12FFB008F74C1 /* 03_1_isPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03_1_isPalindrome.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,8 @@
 			children = (
 				816164D024D848A000F62185 /* 01_class.cpp */,
 				81DAAD5C24DFDF76008F74C1 /* 02_Inverse.cpp */,
+				81DAAD5F24E129D7008F74C1 /* 03_isPalindrome.cpp */,
+				81DAAD6124E12FFB008F74C1 /* 03_1_isPalindrome.cpp */,
 			);
 			path = practice_cpp;
 			sourceTree = "<group>";
@@ -121,7 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81DAAD5E24DFDF76008F74C1 /* 02_Inverse.cpp in Sources */,
+				81DAAD6324E12FFB008F74C1 /* 03_1_isPalindrome.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,7 +6,6 @@
 //  Copyright © 2020 박준형. All rights reserved.
 //
 
-#include "02_class_ab.hpp"
 #include <iostream>
 
 using namespace std;
