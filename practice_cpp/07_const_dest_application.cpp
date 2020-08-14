@@ -17,14 +17,18 @@ using namespace std;
 // 복소수를 저장하는 클래스 (실수부real와 허수부imag를 저장하는 클래스)
 class Complex {
 public:
-    Complex() {
+    /* Complex() {
         real = 0;
         imag = 0;
-    }
-    Complex(double real_, double imag_) {
+    } */
+    Complex(double real_ = 0, double imag_ = 0) {
         real = real_;
         imag = imag_;
-    } // 생성자 오버로딩
+    } // 생성자 오버로딩, 디폴트 매개변수를 이용하면 위의 생성자와 같은 역할을 하기 때문에 코드가 줄어든다.
+    // 디폴트 매개변수를 모두 말고 몇 개만 초기화하려면 오른쪽부터 차례대로 설정할 수 있다.
+    
+    //Complex(): real(0), imag(0) {} 이렇게도 표현가능
+    //Complex(double real_ = 0, double imag_ = 0): real(real_), imag(imag_) {} 위 두개와 동일
     
     double GetReal() {
         return real;
@@ -46,7 +50,7 @@ private:
 
 int main() {
     Complex c1;
-    Complex c2 = Complex(2, 3);
+    Complex c2 = Complex(3);
     // 위와 같은 표현 Complex c3(2, 3);
     // 이것도 같은 표현 Complex c3 = {2, 3};
     
