@@ -16,15 +16,10 @@ private:
     double height = 1.3;
     
 public:
-    Rectangle(double x, double y):width(x), height(y) {
-        
-    }
-    Rectangle(double x):width(x){
-        
-    }
-    Rectangle() {
-        
-    }
+    Rectangle() {}
+    Rectangle(double x):width(x){}
+    Rectangle(double x, double y):width(x), height(y) {}
+    
     void Print();
 };
 

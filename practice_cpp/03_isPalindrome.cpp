@@ -38,7 +38,11 @@ public:
 };
 
 int main() {
+    bool right;
     Solution a;
-    a.isPalindrome(-121);
+    
+    right = a.isPalindrome(-121);
+    
+    cout << right << endl;
     
 }
