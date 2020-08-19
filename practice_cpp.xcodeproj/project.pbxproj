@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		81B7229324ED2D58000F796D /* 11_member_method.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 81B7229224ED2D58000F796D /* 11_member_method.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		816164CB24D848A000F62185 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -29,6 +33,7 @@
 		81647A8824E2BE18003A16B1 /* 04_template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 04_template.cpp; sourceTree = "<group>"; };
 		817FA9E324EAC050009C392A /* 09_static.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 09_static.cpp; sourceTree = "<group>"; };
 		81B7228E24ED2104000F796D /* 10_const.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 10_const.cpp; sourceTree = "<group>"; };
+		81B7229224ED2D58000F796D /* 11_member_method.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 11_member_method.cpp; sourceTree = "<group>"; };
 		81DAAD5C24DFDF76008F74C1 /* 02_Inverse.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 02_Inverse.cpp; sourceTree = "<group>"; };
 		81DAAD5F24E129D7008F74C1 /* 03_isPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03_isPalindrome.cpp; sourceTree = "<group>"; };
 		81DAAD6124E12FFB008F74C1 /* 03_s_isPalindrome.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 03_s_isPalindrome.cpp; sourceTree = "<group>"; };
@@ -76,6 +81,7 @@
 				81386FF824E6EA0B00CE9944 /* 08_class_application_clock.cpp */,
 				817FA9E324EAC050009C392A /* 09_static.cpp */,
 				81B7228E24ED2104000F796D /* 10_const.cpp */,
+				81B7229224ED2D58000F796D /* 11_member_method.cpp */,
 			);
 			path = practice_cpp;
 			sourceTree = "<group>";
@@ -137,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B7229324ED2D58000F796D /* 11_member_method.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
