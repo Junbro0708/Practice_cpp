@@ -14,32 +14,37 @@ using namespace std;
 class GameWindow{
 public:
     GameWindow();
-    GameWindow(int, int);
+    GameWindow(const int, const int);
     
     int GetWidth() const;
     int GetHeight() const;
     
-     GameWindow ResizeWindow(int w, int h) {
-         if (w >= 800 && h >= 600) { return GameWindow(width = w, height = h); }
-         else if (w <= 800 && h <= 600) { return GameWindow(800, 600); }
-         else if (w <= 800) {  return GameWindow(800, height = h); }
-         else {  return GameWindow(width = w, 600); }
-    }
+    void ResizeWindow(const int w, const int h);
     
 private:
     int width;
     int height;
 };
 GameWindow::GameWindow() : width(800), height(600) {}
-GameWindow::GameWindow(int w, int h) : width(w), height(h) {}
+GameWindow::GameWindow(const int w, const int h) {
+    ResizeWindow(w, h);
+}
 
 int GameWindow::GetWidth() const { return width;}
 int GameWindow::GetHeight() const { return height;}
 
+void GameWindow::ResizeWindow(const int w, const int h) {
+    if (w < 800) width = 800;
+    else width = w;
+    
+    if (h < 600) height = 600;
+    else height = h;
+}
+
 
 int main() {
     GameWindow mainWindow;
-    mainWindow.ResizeWindow(766, 668);
+    mainWindow.ResizeWindow(1766, 568);
     
     cout << mainWindow.GetWidth() << ", " << mainWindow.GetHeight() <<  endl;
 }
